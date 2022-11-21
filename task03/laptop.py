@@ -26,8 +26,8 @@ class Laptop:
         self._price = price
 
     def __str__(self):
-        return (f"{self._brand} {self._model}. "
-                f"\nPrice: {self._price}$")
+        return (f"{self._brand} {self._model} "
+                f"\nPrice: {self._price}$\n")
 
     @property
     def brand(self):

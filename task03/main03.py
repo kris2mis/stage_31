@@ -10,7 +10,7 @@ def main():
 
     calc_total_price = Logic.calculate_price(ls)
 
-    print(f"Total count: {calc_total_price}")
+    print(f"Total count: {calc_total_price}$")
 
 
 if __name__ == "__main__":
