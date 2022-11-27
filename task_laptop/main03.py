@@ -9,8 +9,10 @@ def main():
     print(Convertor.convert_to_string(ls))
 
     calc_total_price = Logic.calculate_price(ls)
+    expensive_laptop = Logic.find_expensive_laptop(ls)
 
     print(f"Total count: {calc_total_price}$")
+    print(f"\nThe most expensive laptop is {expensive_laptop}")
 
 
 if __name__ == "__main__":
